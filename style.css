@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffd6ec, #ffe3e3);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .card {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 4px solid #ffd1dc;
+  }
+  
+  h1 {
+    margin-bottom: 0.5rem;
+    font-size: 26px;
+  }
+  
+  p {
+    font-size: 15px;
+    margin-bottom: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .social-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ff9a9e;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s;
+  }
+  
+  .social-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .social-button img {
+    width: 24px;
+    height: 24px;
+  }
+  
